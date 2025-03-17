@@ -1,0 +1,24 @@
+{
+  "name": "youtube-data-api-node",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "quickstart.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node quickstart.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil Mahajan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^16.4.7",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^146.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.0.4"
+  }
+}
