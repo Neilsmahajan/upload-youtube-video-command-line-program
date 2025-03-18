@@ -86,7 +86,7 @@ function uploadVideo(auth: OAuth2Client) {
   const args = process.argv.slice(2);
   if (args.length < 2) {
     console.log(
-      "Usage: node uploadVideo.ts <video_file_path> <title> [description] [privacyStatus]"
+      "Usage: node quickstart.ts <video_file_path> <title> [description] [privacyStatus]"
     );
     process.exit(1);
   }
